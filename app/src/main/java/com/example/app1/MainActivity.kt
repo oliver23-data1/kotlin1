@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             btnSave.text = "Actualizar"
         } else {
             tvDialogTitle.text = "Agregar Usuario"
-            btnSave.text = "Guardar"
+            btnSave.text = "Guardarr"
         }
         
         val dialog = AlertDialog.Builder(this)
