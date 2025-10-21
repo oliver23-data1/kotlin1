@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Ferretería Manager</string>
+    
+    <!-- Navigation -->
+    <string name="products">Productos</string>
+    <string name="customers">Clientes</string>
+    <string name="sales">Ventas</string>
+    <string name="reports">Reportes</string>
+    
+    <!-- Common actions -->
+    <string name="add">Agregar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    
+    <!-- Messages -->
+    <string name="confirm_delete">¿Estás seguro de que quieres eliminar este elemento?</string>
+    <string name="item_deleted">Elemento eliminado</string>
+    <string name="item_saved">Elemento guardado</string>
+    <string name="error_occurred">Ha ocurrido un error</string>
+    
+    <!-- Products -->
+    <string name="product_name">Nombre del producto</string>
+    <string name="product_description">Descripción</string>
+    <string name="product_price">Precio</string>
+    <string name="product_stock">Stock</string>
+    <string name="product_category">Categoría</string>
+    <string name="product_barcode">Código de barras</string>
+    
+    <!-- Customers -->
+    <string name="customer_name">Nombre del cliente</string>
+    <string name="customer_phone">Teléfono</string>
+    <string name="customer_email">Email</string>
+    <string name="customer_address">Dirección</string>
+    <string name="customer_document">Documento</string>
+    
+    <!-- Sales -->
+    <string name="new_sale">Nueva venta</string>
+    <string name="select_customer">Seleccionar cliente</string>
+    <string name="select_products">Seleccionar productos</string>
+    <string name="quantity">Cantidad</string>
+    <string name="total">Total</string>
+    
+    <!-- Reports -->
+    <string name="date_range">Rango de fechas</string>
+    <string name="start_date">Fecha de inicio</string>
+    <string name="end_date">Fecha de fin</string>
+    <string name="generate_report">Generar reporte</string>
+    <string name="total_sales">Total de ventas</string>
+    <string name="number_of_sales">Número de ventas</string>
+</resources>

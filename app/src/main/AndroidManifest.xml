@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App2">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Products Activities -->
+        <activity
+            android:name=".ui.products.ProductsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.products.AddEditProductActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.products.ProductsActivity" />
+            
+        <!-- Customers Activities -->
+        <activity
+            android:name=".ui.customers.CustomersActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.customers.AddEditCustomerActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.customers.CustomersActivity" />
+            
+        <!-- Sales Activities -->
+        <activity
+            android:name=".ui.sales.SalesActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ui.sales.CreateSaleActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.sales.SalesActivity" />
+            
+        <!-- Reports Activity -->
+        <activity
+            android:name=".ui.reports.ReportsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
