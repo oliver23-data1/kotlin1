@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bienvenido a Ferretería Manager"
+                android:text="Bienvenido a Ferretería Manager zzz"
                 android:textAlignment="center"
                 android:textColor="@color/primary_text_color"
                 android:textSize="24sp"
